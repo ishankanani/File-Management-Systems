@@ -33,7 +33,7 @@ def delete_file(filename):
 
 def read_file(filename):
     try:
-        with open('sample.txt','r') as f:
+        with open(filename,'r') as f:
             content = f.read()
             print(f"content of '{filename}' :\n{content}")
 
